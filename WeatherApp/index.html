@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <main>
+        <section class="section-main section">
+            <div class="container grid grid-three-column">
+                <div class="details-overview">
+                    <h2>weather details</h2>
+                    <div class="details">
+                        <p>Country:<span class="country"> 
+                            India</span></p> 
+                        
+                        
+                        <p>Latitute:<span class="latitute">28.6</span></p>
+                        <p>Localtime: <span class="localtime"> 2024-07-02 0:06"</span></p>
+                        <p>Localtime epoch: <span class="localtime_epoch">1719859015</span></p>
+                        <p>Longitude: <span class="longitude">77.2</span></p>
+                        <p>Name: <span class="name">New Delhi</span></p>
+                        <p>Region: <span class="region">Delhi</span></p>
+                        <p>Time zone: <span class="tz-id">Asia/Kolkata</span></p>
+                    </div>
+                </div>
+                <div class="weather-section">
+                    <!-- code for search-bar and search icon -->
+                    <div class="search-bar">
+                        <input type="text" placeholder="Enter city name" spellcheck="false">
+                        <button><img src="weatherImages/search.png" alt=""></button>
+                    </div>
+                    <!-- code for weaher image and temprature -->
+                     <div class="weather-image">
+                        <img src="weatherImages/rain.png"  class="weather-icon" alt="Weather-icon">
+                        <h2 class="temprature">20°c</h2>
+                        <h2 class="city">New Delhi</h2>
+                        <div class="weather-details">
+                            <div class="col">
+                                <img src="weatherImages/humidity.png" alt="weather-icon">
+                                <div>
+                                    <p class="humidity">40%</p>
+                                    <p>Humidity</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <img src="weatherImages/wind.png" alt="weather-icon">
+                                <div>
+                                    <p class="wind">20 km/h</p>
+                                    <p>Wind Speed</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+
+                <!-- details overviews right -->
+                <div class="details-overview">
+                    <h2>weather details</h2>
+                    <div class="details">
+                        <p>Weather text:<span class="text"> 
+                            Mist</span></p> 
+                        <p>heat index: <span class="heatindex_c">39.6</span></p>
+                        <p>humidity: <span class="Humidity">79</span></p>
+                        <p>day: <span class="is-day">1</span></p>
+                        <p>precip: <span class="precip-in">New 0</span></p>
+                        <p>pressure: <span class="pressure-in">29.41</span></p>
+                        <p>wind degree: <span class="wind-degree">260</span></p>
+                        <p>wind direction: <span class="wind-direction">W</span></p>
+                        <p>wind speed: <span class="wind-kph">9</span></p>
+                    </div>
+                </div>
+            </div>
+             
+        </section>
+    </main>
+    
+    
+    <script src="script.js"></script>
+ </body>
+ </html>
